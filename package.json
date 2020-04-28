@@ -1,0 +1,19 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && http-server --cors -p 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.11.0",
+    "browserify": "^16.5.1",
+    "requirejs": "^2.3.6",
+    "typescript": "^3.8.3",
+    "http-server": "0.12.1"
+  }
+}

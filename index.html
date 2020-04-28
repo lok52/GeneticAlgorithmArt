@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>var exports = {};</script>
+    <script type="module" src="http://localhost:8081/constants.js"></script>
+    <script type="module" src="http://localhost:8081/init.js"></script>
+
+    <script type="module" src="http://localhost:8081/Gene.js"></script>
+    <script type="module" src="http://localhost:8081/Individual.js"></script>
+    <script type="module" src="http://localhost:8081/Population.js"></script>
+
+    <script type="module" src="http://localhost:8081/main.js"></script>
+</head>
+<body>
+
+<div class="image">
+    Original<br/>
+    <canvas id="inputCanvas"></canvas>
+</div>
+
+<div class="image">
+    Best scaled<br/>
+    <canvas id="outputCanvas" width="200" height="200"></canvas>
+</div>
+
+<div class="image">
+    Current unscaled<br/>
+    <canvas id="workingCanvas" width="200" height="200"></canvas>
+</div>
+
+<button id="start">Start</button>
+
+</body>
+</html>
